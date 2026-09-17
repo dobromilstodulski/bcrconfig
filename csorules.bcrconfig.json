@@ -4,11 +4,11 @@
       "appName": "MicrosoftTeams",
       "allowList": [
         "https://teams.cloud.microsoft/*",
-        "https://*.teams.cloud.microsoft/*"
+        "https://*.teams.cloud.microsoft/*",
+        "https://login.live.com/*",
+        "https://login.microsoftonline.com/*"
       ],
       "denyList": [
-        "https://login.live.com/*",
-        "https://login.microsoftonline.com/*",
         "https://tokenprovider.termsofuse.identitygovernance.azure.com/*"
       ],
       "requires": {
