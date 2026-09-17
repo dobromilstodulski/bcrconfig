@@ -4,13 +4,12 @@
       "appName": "MicrosoftTeams",
       "allowList": [
         "https://teams.cloud.microsoft/*",
-        "https://*.teams.cloud.microsoft/*"
+        "https://*.teams.cloud.microsoft/*",
+        "https://login.microsoftonline.com/*"
       ],
       "denyList": [
-        "https://login.microsoftonline.com/*",
         "https://login.live.com/*",
-        "https://tokenprovider.termsofuse.identitygovernance.azure.com/*",
-        "https://teams.cloud.microsoft/*"
+        "https://tokenprovider.termsofuse.identitygovernance.azure.com/*"
       ],
       "requires": {
         "profileSharing": true,
