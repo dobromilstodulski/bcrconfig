@@ -8,7 +8,9 @@
       ],
       "denyList": [
         "https://login.microsoftonline.com/*",
-        "https://*.microsoftonline.com/*"
+        "https://login.live.com/*",
+        "https://tokenprovider.termsofuse.identitygovernance.azure.com/*",
+        "https://teams.cloud.microsoft/*"
       ],
       "requires": {
         "profileSharing": true,
