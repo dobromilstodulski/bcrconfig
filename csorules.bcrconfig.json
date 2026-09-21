@@ -6,12 +6,27 @@
         "https://teams.cloud.microsoft/*"
       ],
       "denyList": [
-        "https://teams.cloud.microsoft/v2/authv2*",
         "https://login.microsoftonline.com/*",
         "https://login.microsoft.com/*",
         "https://login.live.com/*",
         "https://aadcdn.msftauth.net/*",
         "https://tokenprovider.termsofuse.identitygovernance.azure.com/*"
+      ],
+      "requires": {
+        "profileSharing": true,
+        "cookies": []
+      }
+    },
+    {
+      "appName": "YouTube",
+      "allowList": [
+        "https://www.youtube.com/*",
+        "https://music.youtube.com/*",
+        "https://consent.youtube.com/*",
+        "https://*.youtube.com/*"
+      ],
+      "denyList": [
+        "https://accounts.google.com/*"
       ],
       "requires": {
         "profileSharing": true,
