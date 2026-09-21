@@ -3,7 +3,9 @@
     {
       "appName": "MicrosoftTeams",
       "allowList": [
-        "https://teams.cloud.microsoft/*"
+        "https://teams.cloud.microsoft/",
+        "https://teams.cloud.microsoft/*",
+        "https://teams.cloud.microsoft/?*"
       ],
       "denyList": [
         "https://login.microsoftonline.com/*",
