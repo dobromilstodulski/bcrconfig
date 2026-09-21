@@ -15,7 +15,7 @@
       ],
       "requires": {
         "profileSharing": true,
-        "cookies": ["<cookie name from dev tools capture>"]
+        "cookies": []
       }
     }
   ],
