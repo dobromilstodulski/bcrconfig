@@ -3,17 +3,19 @@
     {
       "appName": "MicrosoftTeams",
       "allowList": [
-        "https://teams.cloud.microsoft/*",
-        "https://*.teams.cloud.microsoft/*",
-        "https://login.live.com/*",
-        "https://login.microsoftonline.com/*"
+        "https://teams.cloud.microsoft/*"
       ],
       "denyList": [
+        "https://teams.cloud.microsoft/v2/authv2*",
+        "https://login.microsoftonline.com/*",
+        "https://login.microsoft.com/*",
+        "https://login.live.com/*",
+        "https://aadcdn.msftauth.net/*",
         "https://tokenprovider.termsofuse.identitygovernance.azure.com/*"
       ],
       "requires": {
         "profileSharing": true,
-        "cookies": []
+        "cookies": ["<cookie name from dev tools capture>"]
       }
     }
   ],
