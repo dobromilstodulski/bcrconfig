@@ -14,7 +14,7 @@
       ],
       "requires": {
         "profileSharing": true,
-        "cookies": []
+        "cookies": ["%7B%22oid%22%3A%225be5fcf3-6640-4ea7-90e5-c0361410bf11%22%2C%22tid%22%3A%22d60d8735-5cf7-4b39-ba2b-ee4c17aac004%22%7D"]
       }
     },
     {
