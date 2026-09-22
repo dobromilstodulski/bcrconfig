@@ -3,11 +3,9 @@
     {
       "appName": "MSTeams",
       "allowList": [
-        "https://teams.cloud.microsoft*",
         "https://teams.cloud.microsoft",
         "https://teams.cloud.microsoft/",
         "https://teams.cloud.microsoft/*",
-        "https://teams.microsoft.com*",
         "https://teams.microsoft.com",
         "https://teams.microsoft.com/",
         "https://teams.microsoft.com/*"
