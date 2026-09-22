@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "appName": "MicrosoftTeams",
+      "appName": "MSTeams",
       "allowList": [
         "https://teams.cloud.microsoft/",
         "https://teams.cloud.microsoft/*",
