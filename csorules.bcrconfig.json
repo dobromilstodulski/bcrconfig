@@ -3,6 +3,9 @@
     {
       "appName": "MSTeams",
       "allowList": [
+        "https://teams.cloud.microsoft",
+        "https://teams.cloud.microsoft*",
+        "https://teams.cloud.microsoft/",
         "https://teams.cloud.microsoft/*",
         "https://teams.microsoft.com/*"
       ],
@@ -22,7 +25,8 @@
           "authtoken",
           "skypetoken_asm",
           "SignInStateCookie",
-          "authtoken_asm"
+          "authtoken_asm",
+          "ESTSAUTHLIGHT"
         ]
       }
     },
