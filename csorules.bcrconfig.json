@@ -42,7 +42,7 @@
     }
   ],
   "preferences": {
-    "deleteClientCache": true
+    "deleteClientCache": false
   },
   "schemaVersion": "2511"
 }
