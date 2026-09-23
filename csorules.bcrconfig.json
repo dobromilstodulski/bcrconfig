@@ -23,7 +23,19 @@
           "skypetoken_asm",
           "SignInStateCookie",
           "authtoken_asm",
-          "ESTSAUTHLIGHT"
+          "ESTSAUTHLIGHT",
+          "brcap",
+          "buid",
+          "CCState",
+          "esctx",
+          "fpc",
+          "MC1",
+          "MicrosoftApplicationsTelemetryDeviceId",
+          "MS0",
+          "msal.cache.encryption",
+          "MUIDB",
+          "ringFinder",
+          "stsservicecookie"
         ]
       }
     },
