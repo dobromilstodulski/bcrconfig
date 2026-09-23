@@ -3,21 +3,22 @@
     {
       "appName": "MSTeams",
       "allowList": [
-        "https://teams.cloud.microsoft",
-        "https://teams.cloud.microsoft/",
         "https://teams.cloud.microsoft/*",
-        "https://teams.microsoft.com",
-        "https://teams.microsoft.com/",
-        "https://teams.microsoft.com/*"
+        "https://teams.microsoft.com/*",
+        "https://csoie-my.sharepoint.com/*"
       ],
       "denyList": [
         "https://teams.cloud.microsoft/v2/authv2*",
         "https://teams.microsoft.com/v2/authv2*",
+        "https://teams.cloud.microsoft/?loginHint*",
+        "https://teams.microsoft.com/?loginHint*",
         "https://login.microsoftonline.com/*",
         "https://login.microsoft.com/*",
         "https://login.live.com/*",
         "https://aadcdn.msftauth.net/*",
-        "https://tokenprovider.termsofuse.identitygovernance.azure.com/*"
+        "https://tokenprovider.termsofuse.identitygovernance.azure.com/*",
+        "https://autologon.microsoftazuread-sso.com/*",
+        "https://sts.windows.net/*"
       ],
       "requires": {
         "profileSharing": true,
