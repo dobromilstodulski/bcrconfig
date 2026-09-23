@@ -3,9 +3,8 @@
     {
       "appName": "MSTeams",
       "allowList": [
-        "https://teams.cloud.microsoft/*",
-        "https://teams.microsoft.com/*",
-        "https://csoie-my.sharepoint.com/*"
+        "https://teams.cloud.microsoft/",
+        "https://teams.microsoft.com/"
       ],
       "denyList": [
         "https://teams.cloud.microsoft/v2/authv2*",
