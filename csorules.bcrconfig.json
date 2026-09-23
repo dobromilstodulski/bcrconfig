@@ -16,7 +16,14 @@
       ],
       "requires": {
         "profileSharing": true,
-        "cookies": []
+        "cookies": [
+          "ESTSAUTH",
+          "ESTSAUTHPERSISTENT",
+          "authtoken",
+          "skypetoken_asm",
+          "SignInStateCookie",
+          "authtoken_asm"
+        ]
       }
     },
     {
