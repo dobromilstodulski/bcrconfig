@@ -4,9 +4,7 @@
       "appName": "MSTeams",
       "allowList": [
         "https://teams.cloud.microsoft/*",
-        "https://teams.microsoft.com/*",
-        "https://teams.public.onecdn.static.microsoft/*",
-        "https://csoie-my.sharepoint.com/"
+        "https://teams.microsoft.com/*"
       ],
       "denyList": [
         "https://teams.cloud.microsoft/v2/authv2*",
@@ -18,7 +16,11 @@
       ],
       "requires": {
         "profileSharing": true,
-        "cookies": []
+        "cookies": [
+          "ESTSAUTH",
+          "ESTSAUTHPERSISTENT",
+          "esctx"
+        ]
       }
     },
     {
