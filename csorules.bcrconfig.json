@@ -1,46 +1,16 @@
 {
-  "apps": [
-    {
-      "appName": "MSTeams",
-      "allowList": [
-        "https://teams.cloud.microsoft/*",
-        "https://*.teams.cloud.microsoft/*",
-        "https://teams.microsoft.com/*",
-        "https://*.teams.microsoft.com/*",
-        "https://statics.teams.cdn.office.net/*",
-        "https://*.infra.microsoft.com/*",
-        "https://*.skype.com/*"
-      ],
-      "denyList": [
-        "https://login.microsoftonline.com/*",
-        "https://login.microsoft.com/*",
-        "https://login.live.com/*",
-        "https://tokenprovider.termsofuse.identitygovernance.azure.com/*"
-      ],
-      "requires": {
-        "profileSharing": true,
-        "cookies": []
-      }
-    },
-    {
-      "appName": "YouTube",
-      "allowList": [
-        "https://www.youtube.com/*",
-        "https://music.youtube.com/*",
-        "https://consent.youtube.com/*",
-        "https://*.youtube.com/*"
-      ],
-      "denyList": [
-        "https://accounts.google.com/*"
-      ],
-      "requires": {
-        "profileSharing": true,
-        "cookies": []
-      }
-    }
+  "appName": "MSTeams",
+  "allowList": [
+    "https://teams.cloud.microsoft/*",
+    "https://teams.microsoft.com/*"
   ],
-  "preferences": {
-    "deleteClientCache": false
-  },
-  "schemaVersion": "2511"
+  "denyList": [],
+  "requires": {
+    "profileSharing": true,
+    "cookies": [
+      "ESTSAUTH",
+      "ESTSAUTHPERSISTENT",
+      "ESTSAUTHLIGHT"
+    ]
+  }
 }
