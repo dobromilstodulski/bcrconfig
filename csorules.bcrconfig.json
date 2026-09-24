@@ -20,8 +20,9 @@
     {
       "appName": "YouTube",
       "allowList": [
-        "https://www.youtube.com",
+        "https://www.youtube.com/",
         "https://www.youtube.com/*",
+        "https://music.youtube.com/",
         "https://music.youtube.com/*",
         "https://consent.youtube.com/*",
         "https://*.youtube.com/*"
