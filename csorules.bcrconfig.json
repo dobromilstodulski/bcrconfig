@@ -18,27 +18,7 @@
       ],
       "requires": {
         "profileSharing": true,
-        "cookies": [
-          "ESTSAUTH",
-          "ESTSAUTHPERSISTENT",
-          "authtoken",
-          "skypetoken_asm",
-          "SignInStateCookie",
-          "authtoken_asm",
-          "ESTSAUTHLIGHT",
-          "brcap",
-          "buid",
-          "CCState",
-          "esctx",
-          "fpc",
-          "MC1",
-          "MicrosoftApplicationsTelemetryDeviceId",
-          "MS0",
-          "msal.cache.encryption",
-          "MUIDB",
-          "ringFinder",
-          "stsservicecookie"
-        ]
+        "cookies": []
       }
     },
     {
