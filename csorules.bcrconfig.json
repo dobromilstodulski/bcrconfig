@@ -13,13 +13,14 @@
         "https://tokenprovider.termsofuse.identitygovernance.azure.com/*"
       ],
       "requires": {
-        "profileSharing": false,
+        "profileSharing": true,
         "cookies": []
       }
     },
     {
       "appName": "YouTube",
       "allowList": [
+        "https://www.youtube.com",
         "https://www.youtube.com/*",
         "https://music.youtube.com/*",
         "https://consent.youtube.com/*",
@@ -29,7 +30,7 @@
         "https://accounts.google.com/*"
       ],
       "requires": {
-        "profileSharing": false,
+        "profileSharing": true,
         "cookies": []
       }
     }
