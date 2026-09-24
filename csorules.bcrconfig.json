@@ -16,14 +16,7 @@
       ],
       "requires": {
         "profileSharing": true,
-        "cookies": [
-          "ESTSAUTH",
-          "ESTSAUTHPERSISTENT",
-          "ESTSAUTHLIGHT",
-          "estsStateTransient",
-          "estsStatePersistent",
-          "ch"
-        ]
+        "cookies": []
       }
     },
     {
