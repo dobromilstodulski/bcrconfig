@@ -19,7 +19,10 @@
         "cookies": [
           "ESTSAUTH",
           "ESTSAUTHPERSISTENT",
-          "esctx"
+          "ESTSAUTHLIGHT",
+          "estsStateTransient",
+          "estsStatePersistent",
+          "ch"
         ]
       }
     },
