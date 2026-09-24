@@ -1,4 +1,6 @@
 {
+  "apps": [
+    {
   "appName": "MSTeams",
   "allowList": [
     "https://teams.cloud.microsoft/*",
@@ -13,4 +15,10 @@
       "ESTSAUTHLIGHT"
     ]
   }
+    }
+  ],
+  "preferences": {
+    "deleteClientCache": false
+  },
+  "schemaVersion": "2511"
 }
