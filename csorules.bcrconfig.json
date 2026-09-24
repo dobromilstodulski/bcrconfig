@@ -4,12 +4,7 @@
       "appName": "MSTeams",
       "allowList": [
         "https://teams.cloud.microsoft/*",
-        "https://*.teams.cloud.microsoft/*",
-        "https://teams.microsoft.com/*",
-        "https://*.teams.microsoft.com/*",
-        "https://statics.teams.cdn.office.net/*",
-        "https://*.infra.microsoft.com/*",
-        "https://*.skype.com/*"
+        "https://teams.microsoft.com/*"
       ],
       "denyList": [
         "https://login.microsoftonline.com/*",
@@ -18,7 +13,7 @@
         "https://tokenprovider.termsofuse.identitygovernance.azure.com/*"
       ],
       "requires": {
-        "profileSharing": true,
+        "profileSharing": false,
         "cookies": []
       }
     },
@@ -34,7 +29,7 @@
         "https://accounts.google.com/*"
       ],
       "requires": {
-        "profileSharing": true,
+        "profileSharing": false,
         "cookies": []
       }
     }
