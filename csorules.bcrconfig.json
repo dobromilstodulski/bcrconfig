@@ -22,20 +22,9 @@
       "requires": {
         "profileSharing": true,
         "cookies": [
-          "ESTSAUTH",
-          "ESTSAUTHPERSISTENT",
-          "ESTSAUTHLIGHT",
-          "SignInStateCookie",
-          "authtoken",
-          "authtoken_asm",
-          "skypetoken_asm",
-          "fpc",
-          "buid",
-          "stsservicecookie",
-          "x-ms-gateway-slice",
-          "AADSSO",
-          "MSCC",
-          "CC"
+          "MUIDB",
+          "msal.cache.encryption",
+          "platformParams"
         ]
       }
     },
