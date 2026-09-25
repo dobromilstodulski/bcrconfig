@@ -9,8 +9,7 @@
         "https://*.teams.microsoft.com/*",
         "https://statics.teams.cdn.office.net/*",
         "https://*.infra.microsoft.com/*",
-        "https://*.skype.com/*",
-        "https://login.microsoftonline.com/*teams*"
+        "https://*.skype.com/*"
       ],
       "denyList": [
         "https://teams.cloud.microsoft/v2/authv2*",
