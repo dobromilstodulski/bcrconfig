@@ -22,9 +22,8 @@
       "requires": {
         "profileSharing": true,
         "cookies": [
-          "MUIDB",
-          "msal.cache.encryption",
-          "platformParams"
+          "ESTSAUTH",
+          "ESTSAUTHPERSIST"
         ]
       }
     },
