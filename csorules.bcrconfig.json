@@ -13,8 +13,8 @@
         "https://login.microsoftonline.com/*teams*"
       ],
       "denyList": [
-        "https://teams.cloud.microsoft/*",
-        "https://teams.microsoft.com/*",
+        "https://teams.cloud.microsoft/v2/authv2*",
+        "https://teams.microsoft.com/v2/authv2*",
         "https://login.microsoft.com/*",
         "https://login.microsoftonline.com/login*",
         "https://login.live.com/*",
