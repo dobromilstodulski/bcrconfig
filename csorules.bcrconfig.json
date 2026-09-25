@@ -4,7 +4,12 @@
       "appName": "MSTeams",
       "allowList": [
         "https://teams.cloud.microsoft/*",
-        "https://teams.microsoft.com/*"
+        "https://*.teams.cloud.microsoft/*",
+        "https://teams.microsoft.com/*",
+        "https://*.teams.microsoft.com/*",
+        "https://statics.teams.cdn.office.net/*",
+        "https://*.infra.microsoft.com/*",
+        "https://*.skype.com/*"
       ],
       "denyList": [
         "https://login.microsoftonline.com/*",
@@ -14,7 +19,22 @@
       ],
       "requires": {
         "profileSharing": true,
-        "cookies": []
+        "cookies": [
+          "ESTSAUTH",
+          "ESTSAUTHPERSISTENT",
+          "ESTSAUTHLIGHT",
+          "SignInStateCookie",
+          "authtoken",
+          "authtoken_asm",
+          "skypetoken_asm",
+          "fpc",
+          "buid",
+          "stsservicecookie",
+          "x-ms-gateway-slice",
+          "AADSSO",
+          "MSCC",
+          "CC"
+        ]
       }
     },
     {
@@ -37,7 +57,7 @@
     }
   ],
   "preferences": {
-    "deleteClientCache": false
+    "deleteClientCache": true
   },
   "schemaVersion": "2511"
 }
