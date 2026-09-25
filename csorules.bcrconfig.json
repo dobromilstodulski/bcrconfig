@@ -9,12 +9,12 @@
         "https://*.teams.microsoft.com/*",
         "https://statics.teams.cdn.office.net/*",
         "https://*.infra.microsoft.com/*",
+        "https://login.microsoftonline.com/*",
         "https://*.skype.com/*"
       ],
       "denyList": [
         "https://teams.cloud.microsoft/*",
         "https://teams.microsoft.com/*",
-        "https://login.microsoftonline.com/*",
         "https://login.microsoft.com/*",
         "https://login.live.com/*",
         "https://tokenprovider.termsofuse.identitygovernance.azure.com/*"
