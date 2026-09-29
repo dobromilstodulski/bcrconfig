@@ -46,7 +46,8 @@
     {
       "appName": "Pluralsight",
       "allowList": [
-        "https://app.pluralsight.com/*"
+        "https://app.pluralsight.com/library/*",
+        "https://app.pluralsight.com/ilx/*"
       ],
       "denyList": [
         "https://app.pluralsight.com/id/*"
