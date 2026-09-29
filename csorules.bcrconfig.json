@@ -42,6 +42,22 @@
         "profileSharing": true,
         "cookies": []
       }
+    },
+    {
+      "appName": "Pluralsight",
+      "allowList": [
+        "https://www.pluralsight.com/",
+        "https://www.pluralsight.com/*",
+        "https://app.pluralsight.com/library/",
+        "https://app.pluralsight.com/library/*"
+      ],
+      "denyList": [
+        "https://app.pluralsight.com/id"
+      ],
+      "requires": {
+        "profileSharing": true,
+        "cookies": []
+      }
     }
   ],
   "preferences": {
