@@ -79,7 +79,7 @@
       "appName": "GoTo",
       "allowList": [
         "https://www.goto.com/*",
-        "https://app.goto.com/meeting/",
+        "https://app.goto.com/meeting",
         "https://app.goto.com/meeting/*"
       ],
       "denyList": [
