@@ -7,6 +7,8 @@
         "https://*.teams.cloud.microsoft/*",
         "https://teams.microsoft.com/*",
         "https://*.teams.microsoft.com/*",
+        "https://teams.cloud.microsoft/*meetup-join",
+        "https://teams.microsoft.com/*meetup-join",
         "https://login.microsoftonline.com/*teams*",
         "https://statics.teams.cdn.office.net/*",
         "https://*.infra.microsoft.com/*",
@@ -16,6 +18,7 @@
         "https://login.microsoft.com/*",
         "https://login.microsoftonline.com/login*",
         "https://login.live.com/*",
+        "https://aadcdn.msftauth.net/",
         "https://tokenprovider.termsofuse.identitygovernance.azure.com/*"
       ],
       "requires": {
