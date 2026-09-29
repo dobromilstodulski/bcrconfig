@@ -48,8 +48,7 @@
       "allowList": [
         "https://www.pluralsight.com/",
         "https://www.pluralsight.com/*",
-        "https://app.pluralsight.com/library/",
-        "https://app.pluralsight.com/library/*"
+        "https://app.pluralsight.com/*"
       ],
       "denyList": [
         "https://app.pluralsight.com/id/*"
