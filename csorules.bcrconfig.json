@@ -60,6 +60,20 @@
         "profileSharing": true,
         "cookies": []
       }
+    },
+    {
+      "appName": "Google Meet",
+      "allowList": [
+        "https://meet.google.com/*",
+        "https://apps.google.com/*"
+      ],
+      "denyList": [
+        "https://accounts.google.com/*"
+      ],
+      "requires": {
+        "profileSharing": true,
+        "cookies": []
+      }
     }
   ],
   "preferences": {
