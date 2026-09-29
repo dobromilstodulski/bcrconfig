@@ -74,6 +74,20 @@
         "profileSharing": true,
         "cookies": []
       }
+    },
+    {
+      "appName": "GoTo",
+      "allowList": [
+        "https://www.goto.com/*",
+        "https://app.goto.com/meeting/*"
+      ],
+      "denyList": [
+        "https://identity.goto.com/*"
+      ],
+      "requires": {
+        "profileSharing": true,
+        "cookies": []
+      }
     }
   ],
   "preferences": {
