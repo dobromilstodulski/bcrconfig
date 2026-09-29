@@ -52,7 +52,7 @@
         "https://app.pluralsight.com/library/*"
       ],
       "denyList": [
-        "https://app.pluralsight.com/id*"
+        "https://app.pluralsight.com/id/*"
       ],
       "requires": {
         "profileSharing": true,
