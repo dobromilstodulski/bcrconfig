@@ -20,7 +20,10 @@
       ],
       "requires": {
         "profileSharing": true,
-        "cookies": []
+        "cookies": [
+          "ESTSAUTH",
+          "ESTSAUTHPERSIST"
+        ]
       }
     },
     {
