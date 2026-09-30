@@ -9,14 +9,13 @@
         "https://*.teams.microsoft.com/*",
         "https://teams.cloud.microsoft/*meetup-join",
         "https://teams.microsoft.com/*meetup-join",
-        "https://login.microsoftonline.com/*teams*",
         "https://statics.teams.cdn.office.net/*",
         "https://*.infra.microsoft.com/*",
         "https://*.skype.com/*"
       ],
       "denyList": [
         "https://login.microsoft.com/*",
-        "https://login.microsoftonline.com/login*",
+        "https://login.microsoftonline.com/*",
         "https://login.live.com/*",
         "https://aadcdn.msftauth.net/",
         "https://tokenprovider.termsofuse.identitygovernance.azure.com/*"
