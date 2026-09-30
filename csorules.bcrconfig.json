@@ -14,8 +14,8 @@
         "https://*.skype.com/*"
       ],
       "denyList": [
-        "https://teams.microsoft.com/*",
-        "https://teams.cloud.microsoft/*",
+        "https://teams.microsoft.com/v2/auth2*",
+        "https://teams.cloud.microsoft/v2/auth2*",
         "https://login.microsoft.com/*",
         "https://login.microsoftonline.com/*",
         "https://login.live.com/*",
