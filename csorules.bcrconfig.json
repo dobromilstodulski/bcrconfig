@@ -20,7 +20,7 @@
         "https://teams.cloud.microsoft/v2/auth2*",
         "https://login.microsoft.com/*",
         "https://login.live.com/*",
-        "https://aadcdn.msftauth.net/",
+        "https://aadcdn.msftauth.net/"
       ],
       "requires": {
         "profileSharing": true,
