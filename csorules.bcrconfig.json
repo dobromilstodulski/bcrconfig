@@ -116,6 +116,20 @@
       }
     },
     {
+      "appName": "Webex",
+      "allowList": [
+        "https://ecgrants.webex.com/webappng/sites/ecgrants/dashboard/home",
+        "https://ecgrants.webex.com/webappng/sites/ecgrants/dashboard/home/*"
+      ],
+      "denyList": [
+        "https://idbroker-eu.webex.com/idb/*"
+      ],
+      "requires": {
+        "profileSharing": true,
+        "cookies": []
+      }
+    },
+    {
       "appName": "Zoho",
       "allowList": [
         "https://www.zoho.com/meeting/*"
