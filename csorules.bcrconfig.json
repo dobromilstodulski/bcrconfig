@@ -22,7 +22,11 @@
       ],
       "requires": {
         "profileSharing": true,
-        "cookies": []
+        "cookies": [
+          "ESTSAUTH",
+          "ESTSAUTHLIGHT",
+          "SignInStateCookie"
+        ]
       }
     },
     {
