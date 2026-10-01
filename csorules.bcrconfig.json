@@ -9,7 +9,7 @@
         "https://*.teams.microsoft.com/*",
         "https://teams.cloud.microsoft/*meetup-join",
         "https://teams.microsoft.com/*meetup-join",
-        "https://login.microsoftonline.com/*teams*",
+        "https://login.microsoftonline.com/*",
         "https://tokenprovider.termsofuse.identitygovernance.azure.com/*",
         "https://statics.teams.cdn.office.net/*",
         "https://*.infra.microsoft.com/*",
@@ -18,7 +18,6 @@
       "denyList": [
         "https://teams.microsoft.com/v2/auth2*",
         "https://teams.cloud.microsoft/v2/auth2*",
-        "https://login.microsoftonline.com/*",
         "https://login.microsoft.com/*",
         "https://login.live.com/*",
         "https://aadcdn.msftauth.net/"
