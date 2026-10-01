@@ -26,6 +26,17 @@
       }
     },
     {
+      "appName": "Sharepoint Videos",
+      "allowList": [
+        "https://csoie.sharepoint.com/*.mp4*",
+      ],
+      "denyList": [],
+      "requires": {
+        "profileSharing": true,
+        "cookies": []
+      }
+    },
+    {
       "appName": "YouTube",
       "allowList": [
         "https://www.youtube.com/",
