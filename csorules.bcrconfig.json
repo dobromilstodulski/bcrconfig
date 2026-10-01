@@ -86,6 +86,19 @@
         "profileSharing": true,
         "cookies": []
       }
+    },
+    {
+      "appName": "Zoho",
+      "allowList": [
+        "https://www.zoho.com/meeting/*",
+      ],
+      "denyList": [
+        "https://accounts.zoho.eu/*"
+      ],
+      "requires": {
+        "profileSharing": true,
+        "cookies": []
+      }
     }
   ],
   "preferences": {
