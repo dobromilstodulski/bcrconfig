@@ -9,7 +9,7 @@
         "https://*.teams.microsoft.com/*",
         "https://teams.cloud.microsoft/*meetup-join",
         "https://teams.microsoft.com/*meetup-join",
-        "https://login.microsoftonline.com/*",
+        "https://login.microsoftonline.com/*teams*",
         "https://tokenprovider.termsofuse.identitygovernance.azure.com/*",
         "https://statics.teams.cdn.office.net/*",
         "https://*.infra.microsoft.com/*",
