@@ -26,6 +26,21 @@
       }
     },
     {
+      "appName": "Outlook",
+      "allowList": [
+        "https://outlook.office.com/mail/*",
+        "https://outlook.office.com/calendar/*",
+        "https://outlook.office.com/people/*",
+        "https://outlook.office.com/host/*",
+        "https://outlook.live.com/mail/*"
+      ],
+      "denyList": [],
+      "requires": {
+        "profileSharing": true,
+        "cookies": []
+      }
+    },
+    {
       "appName": "Sharepoint Videos",
       "allowList": [
         "https://csoie.sharepoint.com/*.mp4*"
