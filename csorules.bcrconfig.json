@@ -118,7 +118,7 @@
     {
       "appName": "Zoho",
       "allowList": [
-        "https://www.zoho.com/meeting/*",
+        "https://www.zoho.com/meeting/*"
       ],
       "denyList": [
         "https://accounts.zoho.eu/*"
