@@ -88,6 +88,23 @@
       }
     },
     {
+      "appName": "Zoom",
+      "allowList": [
+        "https://zoom.us/join",
+        "https://zoom.us/join/*",
+        "https://app.zoom.us/wc",
+        "https://app.zoom.us/wc/*"
+      ],
+      "denyList": [
+        "https://zoom.us/signup*",
+        "https://app.zoom.us/signin*"
+      ],
+      "requires": {
+        "profileSharing": true,
+        "cookies": []
+      }
+    },
+    {
       "appName": "Zoho",
       "allowList": [
         "https://www.zoho.com/meeting/*",
