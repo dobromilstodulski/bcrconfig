@@ -28,7 +28,7 @@
     {
       "appName": "Sharepoint Videos",
       "allowList": [
-        "https://csoie.sharepoint.com/*.mp4*",
+        "https://csoie.sharepoint.com/*.mp4*"
       ],
       "denyList": [],
       "requires": {
