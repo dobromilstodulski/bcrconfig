@@ -29,10 +29,16 @@
       "appName": "Outlook",
       "allowList": [
         "https://outlook.office.com/mail/*",
+        "https://outlook.cloud.microsoft/mail/*",
         "https://outlook.office.com/calendar/*",
+        "https://outlook.cloud.microsoft/calendar/*",
         "https://outlook.office.com/people/*",
+        "https://outlook.cloud.microsoft/people/*",
         "https://outlook.office.com/host/*",
-        "https://outlook.live.com/mail/*"
+        "https://outlook.cloud.microsoft/host/*",
+        "https://outlook.live.com/mail/*",
+        "https://outlook.office365.com/",
+        "https://outlook.office365.com/*"
       ],
       "denyList": [],
       "requires": {
