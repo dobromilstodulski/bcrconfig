@@ -139,6 +139,7 @@
     {
       "appName": "Webex",
       "allowList": [
+        "https://web.webex.com/",
         "https://web.webex.com/sign-in",
         "https://web.webex.com/join-meeting",
         "https://ecgrants.webex.com/webappng/sites/ecgrants/dashboard/home",
