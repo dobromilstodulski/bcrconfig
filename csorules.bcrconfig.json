@@ -22,7 +22,7 @@
       ],
       "requires": {
         "profileSharing": true,
-        "cookies": ["WLSSC"]
+        "cookies": []
       }
     },
     {
