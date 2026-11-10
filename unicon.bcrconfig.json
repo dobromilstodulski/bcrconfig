@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "appName": "MSTeams",
+      "allowList": [
+        "https://teams.cloud.microsoft/*",
+        "https://teams.microsoft.com/*"
+      ],
+      "denyList": [
+        "https://login.microsoftonline.com/*",
+        "https://login.microsoft.com/*",
+        "https://login.live.com/*"
+      ],
+      "requires": { "profileSharing": true, "cookies": [] }
+    }
+  ],
+  "preferences": { "deleteClientCache": true },
+  "schemaVersion": "2511"
+}
